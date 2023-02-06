@@ -5,7 +5,7 @@ FROM golang:1.17.0-alpine3.14
 WORKDIR /go/src/app
 
 # コンテナ内でのコマンドの実行
-RUN apk update && apk add git
+RUN apk update && apkadd git
 
 # ホスト側のファイルをイメージ側の指定したディレクトリにコピーするコマンド
 
